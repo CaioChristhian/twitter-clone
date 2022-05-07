@@ -10,4 +10,4 @@ export const config = {
 }
 
 // Set up the client for fetching data in the getProps page functions
-export const sanityclent=createClient(config)
+export const sanityClient=createClient(config)
