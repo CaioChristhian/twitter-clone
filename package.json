@@ -7,10 +7,15 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.6",
+    "@portabletext/react": "^1.0.6",
+    "@sanity/image-url": "^1.0.1",
+    "add": "^2.0.6",
     "next": "latest",
+    "next-sanity": "^0.5.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-twitter-embed": "^4.0.4"
+    "react-twitter-embed": "^4.0.4",
+    "yarn": "^1.22.18"
   },
   "devDependencies": {
     "@types/node": "17.0.4",
