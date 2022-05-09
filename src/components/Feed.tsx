@@ -13,7 +13,6 @@ interface Props {
 
 function Feed({ tweets: tweetsProps }: Props) {
   const [tweets, setTweets] = useState<Tweet[]>(tweetsProps)
-  console.log(tweets)
 
   const handleRefresh = async () => {
     const refreshToast = toast.loading('Refreshing...')
@@ -27,7 +26,7 @@ function Feed({ tweets: tweetsProps }: Props) {
   }
 
   return (
-    <div className='col-span-7 lg:col-span-5 border-x max-h-screen overflow-y-scroll'>
+    <div className='col-span-7 lg:col-span-5 border-x max-h-screen overflow-y-scroll scrollbar-hide'>
       <div className='flex items-center justify-between'>
         <h1 className='p-5 pb-0 text-xl font-bold'>Home</h1>
         <RefreshIcon 

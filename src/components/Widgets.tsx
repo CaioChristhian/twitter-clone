@@ -20,6 +20,7 @@ function Widgets() {
       </div>
 
       <TwitterTimelineEmbed
+        noScrollbar
         sourceType="profile"
         screenName="ChristhianCaio"
         options={{height: 1000}}
