@@ -19,7 +19,7 @@ const Home = ({ tweets }: Props) => {
     >
       <Head>
         <title>Twitter Clone</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://links.papareact.com/drq" />
       </Head>
       <Toaster />
 
